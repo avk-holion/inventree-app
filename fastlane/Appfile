@@ -1,0 +1,5 @@
+# fastlane/Appfile
+app_identifier "inventree.inventree_app"
+apple_id ENV["APPLE_ID"]             # Your Apple ID email (set in GitHub Secrets)
+itc_team_id ENV["ITC_TEAM_ID"]       # App Store Connect team ID (if you have multiple)
+team_id ENV["APPLE_TEAM_ID"]         # Developer Portal team ID
