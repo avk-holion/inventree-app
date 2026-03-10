@@ -1,0 +1,5 @@
+app_identifier("com.inventree.inventree")  # The bundle identifier of the app
+apple_id(ENV["APPLE_ID"]) # Your Apple email address (set via APPLE_ID environment variable)
+
+itc_team_id(ENV["ITC_TEAM_ID"]) # App Store Connect Team ID (set via ITC_TEAM_ID environment variable)
+team_id(ENV["TEAM_ID"]) # Developer Portal Team ID (set via TEAM_ID environment variable)
