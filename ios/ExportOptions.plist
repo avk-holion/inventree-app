@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Must match your Apple Developer Team ID -->
+    <key>teamID</key>
+    <string>YOUR_TEAM_ID_HERE</string>
+
+    <!-- "app-store" targets App Store / TestFlight upload -->
+    <key>method</key>
+    <string>app-store</string>
+
+    <!-- Must match your bundle identifier -->
+    <key>provisioningProfiles</key>
+    <dict>
+        <key>inventree.inventree_app</key>
+        <string>match AppStore inventree.inventree_app</string>
+    </dict>
+
+    <key>signingStyle</key>
+    <string>manual</string>
+
+    <key>stripSwiftSymbols</key>
+    <true/>
+
+    <key>uploadBitcode</key>
+    <false/>
+
+    <key>uploadSymbols</key>
+    <true/>
+
+    <key>compileBitcode</key>
+    <false/>
+</dict>
+</plist>
